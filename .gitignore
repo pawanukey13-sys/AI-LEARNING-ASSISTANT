@@ -1,0 +1,59 @@
+# Python / FastAPI Backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+.env/
+*.egg-info/
+.pytest_cache/
+.coverage
+.cache/
+
+# Local Vector Database & Data Storage
+backend/storage/
+storage/
+
+# Node.js / Next.js Frontend
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+frontend/out/
+.eslintcache
+.npm/
+
+# Environment Variables
+.env
+.env.*
+*.env
+# Explicitly allow tracking env.example files
+!.env.example
+!backend/.env.example
+
+# IDE & Operating System Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Media, Large Files & Logs
+*.log
+*.mp4
+*.mov
+*.webm
+*.mov
+*.avi
+*.mkv
+
+# Ensure Dockerfiles and docker-compose files are tracked
+!**/Dockerfile
+!**/docker-compose.yml
+!**/docker-compose.yaml
